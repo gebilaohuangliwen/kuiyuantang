@@ -1,0 +1,55 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/home/index",
+			"style": {
+				"navigationBarTextStyle": "black",
+				"navigationStyle": "custom",
+				"app-plus": {  
+					"titleNView": false
+				}
+			}
+		}, {
+			"path": "pages/category/category",
+			"style": {
+				"navigationBarTextStyle": "black",
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#FFFFFF"
+	},
+	"tabBar": {
+		"borderStyle": "#F7F5F7",
+		"color": "#949494",
+		"selectedColor": "#215B37",
+		"list": [{
+				"pagePath": "pages/home/index",
+				"text": "首页",
+				"iconPath": "static/tabbar/home.png",
+				"selectedIconPath": "static/tabbar/home-select.png"
+			}, {
+				"pagePath": "pages/pickup",
+				"text": "购物车",
+				"iconPath": "static/tabbar/shop.png",
+				"selectedIconPath": "static/tabbar/shop-select.png"
+			}, {
+				"pagePath": "pages/team",
+				"text": "团队",
+				"iconPath": "static/tabbar/team.png",
+				"selectedIconPath": "static/tabbar/team-select.png"
+			}, {
+				"pagaPath": "pages/person",
+				"text": "我的",
+				"iconPath": "static/tabbar/person.png",
+				"selectedIconPath": "static/tabbar/person-select.png"
+			}
+		]
+	}
+}
